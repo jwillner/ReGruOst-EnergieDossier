@@ -1,0 +1,20 @@
+Kategorie;Position;Wert;Einheit
+Verbrauch;Klassischer Strombedarf;6450;MWh/a
+Verbrauch;Waermepumpen;1650;MWh/a
+Verbrauch;Elektromobilitaet;1170;MWh/a
+Verbrauch;Total Strombedarf;9270;MWh/a
+Waerme;Bedarf heute;11000;MWh/a
+Waerme;Bedarf nach Sanierung;7700;MWh/a
+Waerme;davon Waermepumpen;5775;MWh/a
+Waerme;davon Holz-Nahwaerme;1925;MWh/a
+Produktion;Photovoltaik;4275;MWh/a
+Produktion;Windenergie (Anteil);2400;MWh/a
+Produktion;Biogas;350;MWh/a
+Produktion;Total;7025;MWh/a
+Bilanz;Saldo Jahr;-2245;MWh/a
+Bilanz;Deckungsgrad Jahr;76;%
+Bilanz;Winterproduktion;3018;MWh/a
+Bilanz;Winterverbrauch;5098;MWh/a
+Bilanz;Winterdeckungsgrad;59;%
+Speicher;Stationaere Batterien;5.0;MWh
+Speicher;E-Auto bidirektional;5.4;MWh

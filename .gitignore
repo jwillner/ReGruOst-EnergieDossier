@@ -1,0 +1,24 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+._*
+
+# kDrive / Cloud-Sync
+.kdrive*
+*.kdrivepartial
+.~lock.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporäre Renderings und Vorschauen
+Grafiken/Vorschau/
+*.tmp
+~$*
+
+# Editor
+.vscode/
+.idea/
