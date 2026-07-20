@@ -85,7 +85,92 @@ Für die Klimaziele 2035 und 2040 kommt ein neues Kernkraftwerk in jedem Fall zu
 
 ---
 
-## 5. Direkter Vergleich
+## 5. Das Restrisiko: Warum kein technisches System ganz sicher ist
+
+Dieser Abschnitt vertieft eines der Gegenargumente aus Abschnitt 4 – nicht mit Zahlen, sondern mit einer Denkfigur. Sie eignet sich gut für Gespräche, weil sie ohne Fachwissen auskommt und trotzdem trägt.
+
+### Wie Fachleute Risiken beurteilen
+
+Wenn Ingenieurinnen und Ingenieure eine Anlage bauen, stellen sie sich zwei einfache Fragen:
+
+- Was kann schiefgehen?
+- Wie wahrscheinlich ist das?
+
+Daraus entsteht eine sogenannte **Risikoanalyse**. Das Risiko besteht immer aus zwei Teilen, die man sich als Multiplikation vorstellen kann:
+
+> **Risiko = Wie wahrscheinlich ist der Schaden × Wie gross ist der Schaden**
+
+Ein Beispiel aus dem Alltag: Ein Wasserrohr im Keller kann platzen. Das kommt hin und wieder vor – die Wahrscheinlichkeit ist also nicht klein. Der Schaden bleibt aber meist überschaubar. Ein Flugzeugabsturz ist das Gegenteil: sehr selten, aber wenn er passiert, sind die Folgen schwer.
+
+Deshalb versuchen Fachleute, **beide** Faktoren klein zu halten – die Wahrscheinlichkeit und das mögliche Ausmass.
+
+### Das Problem mit der Wahrscheinlichkeit
+
+Hier beginnt die Schwierigkeit. Niemand kann die Zukunft genau vorhersagen:
+
+- Wie wahrscheinlich ist ein Erdbeben, das stärker ist als alles bisher Gemessene?
+- Wie wahrscheinlich ist es, dass mehrere technische Defekte gleichzeitig auftreten?
+- Wie wahrscheinlich ist ein menschlicher Fehler unter grossem Druck?
+
+Die ehrliche Antwort lautet: Niemand weiss es genau.
+
+**Fukushima** ist dafür ein Lehrstück. Vor dem Unglück galten die Sicherheitsberechnungen als ausreichend. Dass gleich mehrere Schutzsysteme durch eine einzige aussergewöhnliche Naturkatastrophe zusammen ausfallen könnten, wurde als extrem unwahrscheinlich eingestuft. Genau das ist dann passiert – nicht weil die Fachleute unfähig gewesen wären, sondern weil die Wirklichkeit manchmal Wege nimmt, die keine Berechnung vorgesehen hat.
+
+Die berechnete Wahrscheinlichkeit ist eben nur eine Schätzung. Und Schätzungen können falsch sein – gerade bei sehr seltenen Ereignissen, für die es kaum Erfahrungswerte gibt.
+
+### Der Mensch bleibt Teil des Systems
+
+Zu jeder Anlage gehören Menschen. Sie entwickeln, bauen, warten und bedienen sie, und sie treffen Entscheidungen – oft unter Zeitdruck. Und Menschen machen Fehler.
+
+Flugzeuge sind hervorragend konstruiert und gehören zu den sichersten Verkehrsmitteln überhaupt. Trotzdem stürzt gelegentlich eines ab. Fast nie liegt es an einer einzelnen Ursache. Meist kommen viele kleine Dinge zusammen: Technik, Wetter, Kommunikation, Wartung, eine Fehlentscheidung im falschen Moment. In einem hochkomplexen System lässt sich diese Verkettung nie vollständig ausschliessen.
+
+Dasselbe gilt für Chemiewerke, Staudämme – und Kernkraftwerke.
+
+### Der entscheidende Unterschied
+
+Bei den meisten Anlagen bleibt ein Unfall örtlich begrenzt. Ein Brand zerstört ein Gebäude. Ein Flugzeugabsturz betrifft ein bestimmtes Gebiet. Ein Industrieunfall bleibt in der Regel lokal.
+
+Ein schwerer Unfall in einem Kernkraftwerk kann dagegen **grosse Regionen über Jahrzehnte oder Generationen unbewohnbar machen**. Betroffen sind nicht nur die Menschen vor Ort, sondern auch Landwirtschaft, Trinkwasser, Wirtschaft – und die Nachkommen.
+
+Und hier zeigt die Formel ihre ganze Wucht: Selbst wenn die Wahrscheinlichkeit sehr klein ist – das mögliche Schadensausmass ist so gewaltig, dass das Produkt aus beidem nicht einfach «vernachlässigbar» wird. Ein sehr kleiner Wert multipliziert mit einem enormen Wert ergibt eben nicht null.
+
+### Warum das eine gesellschaftliche Frage ist
+
+Deshalb genügt der Satz «Die Wahrscheinlichkeit ist sehr gering» nicht. Aus zwei Gründen:
+
+1. Diese Wahrscheinlichkeit lässt sich nie mit letzter Sicherheit bestimmen – Fukushima hat das gezeigt.
+2. Je grösser der mögliche Schaden, desto vorsichtiger muss eine Gesellschaft sein. Bei einem Schaden, der Generationen trifft, ist schon ein kleines Restrisiko eine ethische Frage, keine rein technische.
+
+### Die Schlussfolgerung
+
+Technik kann nie vollkommen sicher sein. Es gibt immer unbekannte Ereignisse, menschliche Fehler und Situationen, die niemand vorhergesehen hat. Bei den meisten Anlagen sind die Folgen begrenzt und damit tragbar. Bei einem Kernkraftwerk kann der schlimmste denkbare Fall so gross sein, dass schon das verbleibende Restrisiko schwer zu verantworten ist.
+
+Der Kern des Arguments – bewusst ohne Vorwurf an die Technik:
+
+> Nicht weil Kernkraftwerke schlecht gebaut wären, sondern weil kein technisches System vollkommen fehlerfrei sein kann und der mögliche Schaden eines schweren Unfalls enorm ist, ist es klüger, auf Energieformen zu setzen, deren schlimmster denkbarer Unfall deutlich kleinere Folgen hat.
+
+Eine Solaranlage, ein Windrad, ein Wärmespeicher: Auch sie können kaputtgehen. Aber ihr schlimmster Fall macht keine Region unbewohnbar. Genau das ist der Unterschied.
+
+### Ehrlich bleiben – die Gegenseite dieses Arguments
+
+Damit das Argument im Gespräch trägt, muss man auch seine Grenzen kennen:
+
+- Nach derselben Logik müsste man auch andere Grossrisiken streng prüfen – etwa grosse Staudämme, deren Bruch ebenfalls Tausende Menschen gefährden kann. Das Argument ist also kein reines Anti-Atom-Argument, sondern ein allgemeines Prinzip. Das schwächt es nicht, macht aber ehrlich.
+- Befürworter halten entgegen, dass Kernkraft **statistisch** – gerechnet in Todesfällen pro erzeugter Kilowattstunde – zu den sichersten Energieformen zählt, weil schwere Unfälle sehr selten sind. Das stimmt für den Durchschnitt. Der Einwand des Restrisikos zielt aber nicht auf den Durchschnitt, sondern auf den **seltenen Extremfall** und dessen kaum begrenzbares Ausmass. Beide Sichtweisen sind in sich schlüssig – sie gewichten nur Wahrscheinlichkeit und Schadensausmass unterschiedlich.
+
+Wer das offen anspricht, wirkt glaubwürdiger als jemand, der nur eine Seite kennt.
+
+### Für das Gespräch am Infostand
+
+**«Moderne Kernkraftwerke sind doch extrem sicher.»**
+> «Das sind sie tatsächlich – technisch sind sie sehr gut. Aber kein System ist zu hundert Prozent sicher, das gilt auch für Flugzeuge. Der Unterschied ist der Schaden im schlimmsten Fall: Ein Flugzeugabsturz ist furchtbar, aber örtlich begrenzt. Ein schwerer Reaktorunfall kann eine ganze Region für Generationen unbewohnbar machen. Bei einem so grossen möglichen Schaden reicht mir ‹sehr unwahrscheinlich› nicht.»
+
+**«Aber die Wahrscheinlichkeit eines Super-GAUs ist verschwindend klein.»**
+> «Vor Fukushima hat man das auch gesagt und ausgerechnet. Dann kam es trotzdem. Solche Wahrscheinlichkeiten sind Schätzungen, und bei sehr seltenen Ereignissen kann man sich stark verschätzen. Und selbst eine winzige Wahrscheinlichkeit mal einem riesigen Schaden ergibt kein akzeptables Risiko.»
+
+---
+
+## 6. Direkter Vergleich
 
 | Kriterium | Neues KKW | Photovoltaik | Windkraft an Land |
 |---|---|---|---|
@@ -101,7 +186,7 @@ Für die Klimaziele 2035 und 2040 kommt ein neues Kernkraftwerk in jedem Fall zu
 
 ---
 
-## 6. Die Greenpeace-Position
+## 7. Die Greenpeace-Position
 
 Greenpeace lehnt neue Kernkraftwerke ab. Die Kernaussagen:
 
@@ -113,7 +198,7 @@ Greenpeace lehnt neue Kernkraftwerke ab. Die Kernaussagen:
 
 ---
 
-## 7. Für das Gespräch am Infostand
+## 8. Für das Gespräch am Infostand
 
 **Der stärkste Einzelpunkt ist die Zeit.** Er funktioniert auch bei Menschen, die Kernkraft grundsätzlich nicht ablehnen:
 
@@ -130,7 +215,7 @@ Greenpeace lehnt neue Kernkraftwerke ab. Die Kernaussagen:
 
 ---
 
-## 8. Zum Schluss: gegenläufige Perspektiven benennen
+## 9. Zum Schluss: gegenläufige Perspektiven benennen
 
 Fairness gehört zur Glaubwürdigkeit. Deshalb der Vollständigkeit halber: Es gibt Klimawissenschaftlerinnen und Energieökonomen, die eine Weiternutzung bestehender Kernkraftwerke befürworten, solange sie sicher betrieben werden können – mit dem Argument, dass eine vorzeitige Abschaltung in der Praxis oft durch fossile Erzeugung ersetzt wurde, wie in Deutschland nach 2011 zeitweise geschehen.
 
