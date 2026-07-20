@@ -4,6 +4,12 @@ import glob, os, re
 import markdown
 from weasyprint import HTML, CSS
 
+# ---- Metadaten (hier anpassen bei neuer Version) ----
+GRUPPE       = "Greenpeace Regionalgruppe Ost"
+VERSION      = "1.0"
+DATUM        = "20. Juli 2026"
+VERANTWORTL  = "Greenpeace Regionalgruppe Ost / Joachim Willner"
+
 FILES = sorted(glob.glob("[0-9][0-9]_*.md"))
 
 TITEL = {
@@ -19,14 +25,15 @@ TITEL = {
 md = markdown.Markdown(extensions=["tables", "fenced_code", "attr_list", "sane_lists", "nl2br"])
 
 # ---- Titelseite + Inhaltsverzeichnis
-parts = ["""
+parts = [f"""
 <div class="cover">
-  <div class="cover-eyebrow">Greenpeace Regionalgruppe</div>
+  <div class="cover-eyebrow">{GRUPPE}</div>
   <h1 class="cover-title">Warum wir auf<br>erneuerbare Energien setzen</h1>
   <div class="cover-sub">Fakten, Zahlen und Argumente zur Schweizer Energiezukunft</div>
   <div class="cover-rule"></div>
-  <div class="cover-meta">Energiedossier &middot; Stand Juli 2026<br>
+  <div class="cover-meta">Energiedossier &middot; Version {VERSION} &middot; {DATUM}<br>
   Argumentationshilfe für Infostände und Gespräche</div>
+  <div class="cover-resp">Verantwortlich: {VERANTWORTL}</div>
 </div>
 <div class="toc-page">
   <h1>Inhalt</h1>
@@ -56,9 +63,10 @@ for f in FILES:
 CSSTEXT = """
 @page {
   size: A4; margin: 22mm 20mm 20mm 20mm;
-  @bottom-center { content: counter(page); font-family: "DejaVu Sans", sans-serif;
+  @bottom-center { content: "Seite " counter(page) "/" counter(pages);
+                   font-family: "DejaVu Sans", sans-serif;
                    font-size: 8.5pt; color: #7a7a7a; }
-  @top-right { content: "Greenpeace Energiedossier"; font-family: "DejaVu Sans", sans-serif;
+  @top-right { content: "GRUPPE_PLATZHALTER Energiedossier"; font-family: "DejaVu Sans", sans-serif;
                font-size: 7.5pt; color: #a5a5a5; letter-spacing: .06em; }
 }
 @page :first { @bottom-center { content: ""; } @top-right { content: ""; } }
@@ -76,6 +84,8 @@ body { margin: 0; }
 .cover-sub { font-size: 12.5pt; color: #3d5a49; line-height: 1.5; max-width: 118mm; }
 .cover-rule { width: 34mm; height: 3.5pt; background: #00874a; margin: 14mm 0 8mm 0; }
 .cover-meta { font-family: "DejaVu Sans", sans-serif; font-size: 9pt; color: #6d6d6d; line-height: 1.7; }
+.cover-resp { font-family: "DejaVu Sans", sans-serif; font-size: 9pt; color: #10331f;
+  margin-top: 10mm; padding-top: 3mm; border-top: .5pt solid #d5ddd8; }
 
 /* ---------- Inhaltsverzeichnis ---------- */
 .toc-page { page-break-after: always; }
@@ -129,6 +139,7 @@ a { color: #1c1c1c; text-decoration: none; word-break: break-all; }
 
 html = "<html><head><meta charset='utf-8'></head><body>" + "".join(parts) + "</body></html>"
 os.makedirs("Endfassung", exist_ok=True)
+CSSTEXT = CSSTEXT.replace("GRUPPE_PLATZHALTER", GRUPPE)
 HTML(string=html, base_url=".").write_pdf("Endfassung/Greenpeace_Energiedossier.pdf",
                                           stylesheets=[CSS(string=CSSTEXT)])
 print("PDF erstellt.")
