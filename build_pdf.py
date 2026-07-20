@@ -68,8 +68,10 @@ CSSTEXT = """
                    font-size: 8.5pt; color: #7a7a7a; }
   @top-right { content: "GRUPPE_PLATZHALTER Energiedossier"; font-family: "DejaVu Sans", sans-serif;
                font-size: 7.5pt; color: #a5a5a5; letter-spacing: .06em; }
+  @top-left { content: "Version VERSION_PLATZHALTER · DATUM_PLATZHALTER"; font-family: "DejaVu Sans", sans-serif;
+              font-size: 7.5pt; color: #a5a5a5; letter-spacing: .06em; }
 }
-@page :first { @bottom-center { content: ""; } @top-right { content: ""; } }
+@page :first { @bottom-center { content: ""; } @top-right { content: ""; } @top-left { content: ""; } }
 
 html { font-family: "DejaVu Serif", Georgia, serif; font-size: 10pt;
        line-height: 1.52; color: #1c1c1c; }
@@ -139,7 +141,9 @@ a { color: #1c1c1c; text-decoration: none; word-break: break-all; }
 
 html = "<html><head><meta charset='utf-8'></head><body>" + "".join(parts) + "</body></html>"
 os.makedirs("Endfassung", exist_ok=True)
-CSSTEXT = CSSTEXT.replace("GRUPPE_PLATZHALTER", GRUPPE)
+CSSTEXT = (CSSTEXT.replace("GRUPPE_PLATZHALTER", GRUPPE)
+                  .replace("VERSION_PLATZHALTER", VERSION)
+                  .replace("DATUM_PLATZHALTER", DATUM))
 HTML(string=html, base_url=".").write_pdf("Endfassung/Greenpeace_Energiedossier.pdf",
                                           stylesheets=[CSS(string=CSSTEXT)])
 print("PDF erstellt.")
