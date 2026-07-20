@@ -1,6 +1,6 @@
 # Greenpeace Energiedossier
 
-**Warum Greenpeace auf erneuerbare Energien setzt** – Fakten, Zahlen und Argumente zur Schweizer Energiezukunft.
+**Warum wir auf erneuerbare Energien setzen** – Fakten, Zahlen und Argumente zur Schweizer Energiezukunft.
 
 Argumentationshilfe für Infostände und Gespräche der Regionalgruppe.
 Stand: Juli 2026.

@@ -22,7 +22,7 @@ md = markdown.Markdown(extensions=["tables", "fenced_code", "attr_list", "sane_l
 parts = ["""
 <div class="cover">
   <div class="cover-eyebrow">Greenpeace Regionalgruppe</div>
-  <h1 class="cover-title">Warum Greenpeace auf<br>erneuerbare Energien setzt</h1>
+  <h1 class="cover-title">Warum wir auf<br>erneuerbare Energien setzen</h1>
   <div class="cover-sub">Fakten, Zahlen und Argumente zur Schweizer Energiezukunft</div>
   <div class="cover-rule"></div>
   <div class="cover-meta">Energiedossier &middot; Stand Juli 2026<br>

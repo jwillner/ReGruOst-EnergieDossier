@@ -1,6 +1,6 @@
 # 00 – Projektplan
 
-**Projekt:** Energiedossier «Warum Greenpeace auf erneuerbare Energien setzt»
+**Projekt:** Energiedossier «Warum wir auf erneuerbare Energien setzen»
 **Zielgruppe:** Regionalgruppe Greenpeace, Einsatz an Infoständen und in Gesprächen
 **Stand:** Juli 2026
 
