@@ -131,4 +131,42 @@ Die Rechnung geht auf – **aber nur, wenn Effizienz und Ausbau gleichzeitig gel
 
 ---
 
-**Quellen:** BFE Elektrizitätsbilanz 2025 · Stromgesetz/Mantelerlass · BFS Gebäudestatistik · FWS · Swissolar · Suisse Eole. Vollständige Angaben in `12_Quellen.md`.
+## 8. Internationaler Vergleich: Ausbau in Deutschland und China
+
+**Warum relevant:** Deutschland und China zeigen die Grössenordnung, in der ein Ausbau von Photovoltaik und Windkraft technisch und wirtschaftlich bereits stattfindet – als Referenz für Tempo und Machbarkeit, nicht als direkter Massstab für die kleinere Schweiz.
+
+| Kennzahl | Deutschland | China | Jahr |
+|---|---|---|---|
+| Installierte PV-Leistung (kumuliert) | **~118 GWp** | **~1'200 GW (1,2 TW)** | 2025 |
+| Installierte Windleistung (kumuliert) | **~77,6 GW** (68,1 Onshore + 9,5 Offshore) | **~640 GW** | 2025 |
+| PV-Zubau im Jahr | **~16,4 GW** | **~315 GW (AC)** | 2025 |
+| Windzubau im Jahr | **~4,8 GW** (4,5 Onshore + 0,3 Offshore) | **~119 GW** | 2025 |
+| Anteil Erneuerbare an Stromerzeugung | **~55,9 %** (Fraunhofer-ISE-Methodik) bzw. ~58,8 % (Bundesnetzagentur, alle Erzeuger) | Wind + Solar allein: **~22 %**; nicht-fossile Erzeugung inkl. Kernenergie: **~42 %**; fossil: ~58 % (2025 erstmals rückläufig) | 2025 |
+
+*Quelle Deutschland: Fraunhofer ISE / Prof. B. Burger, «Stromerzeugung in Deutschland im Jahr 2025» (energy-charts.info, Januar 2026); Bundesnetzagentur, Pressemitteilung «Wachstum bei erneuerbaren Energien 2025» (8. Januar 2026).*
+*Quelle China: National Energy Administration (NEA), Jahresstatistik 2025 (veröffentlicht 28./29. Januar 2026, referenziert u. a. bei pv magazine und Yicai Global); Ember, «China Energy Transition Review 2025» und «Global Electricity Review 2026».*
+
+> **Hinweis (Redaktionsregel 3):** Der China-Wert «~42 % nicht-fossil» ist aus Sekundärquellen rekonstruiert (Wind+Solar 22 % + Wasserkraft 13 % + Rest Kernenergie/Biomasse) und sollte vor Publikation direkt im Ember-Report bzw. der NEA-Jahresstatistik gegengeprüft werden. Alle Werte hier sind vorläufig, bis im Original-Report verifiziert.
+
+---
+
+## 9. Kumulierte Kosten: Erneuerbare vs. fossile Energien
+
+**Fragestellung:** Wie verhalten sich die kumulierten Investitionen in den Ausbau der Erneuerbaren zu den kumulierten Ausgaben für fossile Energien (Importe, Subventionen, externe Kosten)?
+
+| Kennzahl | Wert | Zeitraum | Quelle |
+|---|---|---|---|
+| Globale Investitionen in saubere Energietechnologien (Solar, Wind, Speicher, Netze, E-Mobilität) | **~2,2 Bio. USD** | 2025 | IEA, *World Energy Investment 2025* |
+| Globale Investitionen in fossile Energien (Öl, Gas, Kohle) | **~1,1 Bio. USD** | 2025 | IEA, *World Energy Investment 2025* |
+| Globale fossile Subventionen, explizit (direkte Preisstützung) | **~0,73 Bio. USD** | 2024 | IWF, *Underpriced and Overused: Fossil Fuel Subsidies Data 2025 Update* |
+| Globale fossile Subventionen, implizit (inkl. nicht eingepreiste Klima-/Gesundheitskosten) | **~6,7 Bio. USD** (~5,8 % des globalen BIP) | 2024 | IWF, dito |
+| Schweizer Ausgaben für fossile Energieimporte (Öl inkl. Gas) | **~8 Mrd. CHF/Jahr** (Richtwert, 10-Jahres-Schnitt) | ca. 2015–2024 | Energiestiftung Schweiz, mit Verweis auf BFE Gesamtenergiestatistik |
+| Schweizer PV-Branchenumsatz (Näherungswert für Investitionsvolumen) | **~3,7 Mrd. CHF** | 2024 | Swissolar, *Solarmonitor Schweiz* |
+
+*Hinweis zur Vergleichbarkeit: Die Zeilen messen Unterschiedliches – globale Investitionsflüsse, globale Subventionen und Schweizer Importausgaben sind nicht direkt eins-zu-eins vergleichbar. Aussagekräftig ist die Grössenordnung: Weltweit fliesst inzwischen doppelt so viel Kapital in saubere Technologien wie in fossile Energien, während fossile Energien gleichzeitig mit Billionen subventioniert werden.*
+
+> **Vor Publikation (Redaktionsregel 1+3):** Schweizer Importzahl beim BFE (Gesamtenergiestatistik, aktuellste Tabelle) exakt nachschlagen und mit Jahr versehen – der «~8 Mrd.»-Wert stammt aus einer Sekundärquelle ohne präzise Jahresangabe und gilt bis dahin als provisorisch.
+
+---
+
+**Quellen:** BFE Elektrizitätsbilanz 2025 · Stromgesetz/Mantelerlass · BFS Gebäudestatistik · FWS · Swissolar · Suisse Eole · Fraunhofer ISE/energy-charts.info · Bundesnetzagentur · NEA (China) · Ember · IEA World Energy Investment 2025 · IWF Fossil Fuel Subsidies 2025 Update · Energiestiftung Schweiz. Vollständige Angaben in `12_Quellen.md`.

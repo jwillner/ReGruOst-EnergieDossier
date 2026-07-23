@@ -173,6 +173,54 @@ https://www.energy-charts.info/
 
 ---
 
+## Ausbau Deutschland/China und Kostenvergleich (Kapitel 02, Abschnitte 8–9)
+
+**Fraunhofer ISE / Prof. B. Burger – «Stromerzeugung in Deutschland im Jahr 2025»** (PDF, Januar 2026)
+https://www.energy-charts.info/downloads/Stromerzeugung_2025.pdf
+Quelle für: installierte PV-Leistung Deutschland ~118 GWp (Ende 2025) · Erneuerbaren-Anteil ~55,9 % am Strommix (ISE-Methodik).
+
+**Bundesnetzagentur – Pressemitteilung «Wachstum bei erneuerbaren Energien 2025»** (8. Januar 2026)
+https://www.bundesnetzagentur.de/1087156
+Quelle für: Windleistung Deutschland Onshore 68,1 GW / Offshore 9,5 GW (kumuliert) · Windzubau 2025 ~4,5 GW Onshore + 0,3 GW Offshore · PV-Zubau ~16,4 GW · Erneuerbaren-Anteil ~58,8 % (alle Erzeuger).
+
+**pv magazine – «China adds 315 GW of solar in 2025»** (28. Januar 2026, nach NEA-Jahresstatistik)
+https://www.pv-magazine.com/2026/01/28/china-adds-315-gw-of-solar-in-2025/
+Quelle für: PV-Zubau China 2025 ~315 GW (AC) · kumulierte PV-Leistung ~1,2 TW.
+
+**The State Council of China (gov.cn) – «China's newly installed wind, solar power capacity up 22 pct in 2025»** (nach NEA-Daten, Februar 2026)
+https://english.www.gov.cn/archive/statistics/202602/12/content_WS698d93cbc6d00ca5f9a091bb.html
+Quelle für: Windzubau China 2025 ~119 GW · kumulierte Windleistung ~640 GW.
+
+**Ember – «China Energy Transition Review 2025»**
+https://ember-energy.org/latest-insights/china-energy-transition-review-2025/
+PDF: https://ember-energy.org/app/uploads/2025/09/China-Energy-Transition-Review-2025.pdf
+Quelle für: Anteil Wind + Solar an Chinas Stromerzeugung ~22 % · Wasserkraft ~13 %.
+
+**Ember – «Global Electricity Review 2026»**
+https://ember-energy.org/latest-insights/global-electricity-review-2026/
+Quelle für: fossile Stromerzeugung China 2025 ~58 % (erstmals rückläufig) → nicht-fossiler Anteil (inkl. Kernenergie) rechnerisch ~42 %.
+*Hinweis: Der 42-%-Wert ist aus den Einzelanteilen rekonstruiert, nicht als Summenzahl im Originalreport bestätigt – vor Weiterverwendung im Original-Report gegenprüfen.*
+
+**IEA – World Energy Investment 2025** (Executive Summary, Juni 2025)
+https://www.iea.org/reports/world-energy-investment-2025/executive-summary
+Quelle für: globale Energieinvestitionen 2025 gesamt ~3,3 Bio. USD, davon ~2,2 Bio. USD saubere Energietechnologien (Solar, Speicher, Netze, E-Mobilität) und ~1,1 Bio. USD fossile Energien (Öl, Gas, Kohle).
+
+**IWF – «Underpriced and Overused: Fossil Fuel Subsidies Data 2025 Update»** (Working Paper Nr. 2025/270)
+https://www.imf.org/en/publications/wp/issues/2025/12/20/underpriced-and-overused-fossil-fuel-subsidies-data-2025-update-572729
+Quelle für: globale fossile Subventionen 2024 – explizit (direkte Preisstützung) ~0,73 Bio. USD; implizit (inkl. nicht eingepreiste Klima-/Gesundheitskosten) ~6,7 Bio. USD bzw. ~5,8 % des globalen BIP.
+
+**Schweizerische Energie-Stiftung (SES) – «Die Schweiz hängt (noch) am Erdöl-Tropf»**
+https://energiestiftung.ch/erdoel-schweiz
+Quelle für: Richtwert ~8 Mrd. CHF/Jahr Schweizer Ausgaben für fossile Energieimporte (Öl inkl. Gas).
+*Einschränkung: Zitiert ohne exaktes Bezugsjahr; für die belastbare Zahl direkt die BFE-Gesamtenergiestatistik (aktuellste Jahrestabelle) heranziehen.*
+
+**Swissolar – Solarmonitor Schweiz 2024** (PDF)
+https://www.swissolar.ch/02_markt-politik/solarmonitor-schweiz/solarmonitor_schweiz_2024_de.pdf
+Quelle für: geschätzter PV-Branchenumsatz Schweiz ~3,7 Mrd. CHF (2024) als Näherungswert für das jährliche Investitionsvolumen.
+*Einschränkung: Zahl aus Sekundärrecherche, im Solarmonitor-PDF selbst noch nicht Zeile für Zeile verifiziert – vor Publikation Originaltabelle prüfen.*
+
+---
+
 ## Weitere Fachstellen
 
 **PSI – Paul Scherrer Institut** (Energieforschung, Lebenszyklusanalysen)
