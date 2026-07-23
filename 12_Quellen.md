@@ -219,6 +219,14 @@ https://www.swissolar.ch/02_markt-politik/solarmonitor-schweiz/solarmonitor_schw
 Quelle für: geschätzter PV-Branchenumsatz Schweiz ~3,7 Mrd. CHF (2024) als Näherungswert für das jährliche Investitionsvolumen.
 *Einschränkung: Zahl aus Sekundärrecherche, im Solarmonitor-PDF selbst noch nicht Zeile für Zeile verifiziert – vor Publikation Originaltabelle prüfen.*
 
+**KfW Research – «Volkswirtschaft Kompakt» Nr. 251** (PDF, April 2025)
+https://www.kfw.de/PDF/Download-Center/Konzernthemen/Research/PDF-Dokumente-Volkswirtschaft-Kompakt/One-Pager-2025/VK-Nr.-251-April-2025-fossile-Importe.pdf
+Quelle für: deutsche Ausgaben für fossile Energieimporte (Rohöl, Erdgas, Steinkohle) ~75–81 Mrd. €/Jahr im Schnitt 2008–2024; 2024 einzeln Rohöl 51 Mrd. €, Erdgas 19 Mrd. €, Steinkohle 5 Mrd. €; zum Vergleich 137,3 Mrd. € (2022) und 80,7 Mrd. € (2023).
+
+**BMWE/AGEE-Stat – Newsletter Energiewende «Erneuerbare Energien 2025 in Zahlen»** (März 2026)
+https://energiewende.bundeswirtschaftsministerium.de/EWD/Redaktion/Newsletter/2026/03/Meldung/direkt-erfasst.html
+Quelle für: deutsche Investitionen in neue EE-Anlagen 2025 ~37,6 Mrd. € (zweithöchster Wert seit 2000, nahe Rekordjahr 2023; seit 2021 mehr als verdoppelt).
+
 ---
 
 ## Weitere Fachstellen
