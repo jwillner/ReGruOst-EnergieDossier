@@ -227,6 +227,15 @@ Quelle für: deutsche Ausgaben für fossile Energieimporte (Rohöl, Erdgas, Stei
 https://energiewende.bundeswirtschaftsministerium.de/EWD/Redaktion/Newsletter/2026/03/Meldung/direkt-erfasst.html
 Quelle für: deutsche Investitionen in neue EE-Anlagen 2025 ~37,6 Mrd. € (zweithöchster Wert seit 2000, nahe Rekordjahr 2023; seit 2021 mehr als verdoppelt).
 
+**Umweltbundesamt (UBA) – «Umweltschädliche Subventionen in Deutschland»**
+https://www.umweltbundesamt.de/daten/umwelt-wirtschaft/umweltschaedliche-subventionen-in-deutschland
+Quelle für: umweltschädliche Subventionen Deutschland gesamt ~65 Mrd. €/Jahr (letzte amtliche Gesamtbezifferung 2018), davon Energieerzeugung/-nutzung 25,4 Mrd. €, Verkehr 30,8 Mrd. €, Landwirtschaft/Forst/Fischerei 6,2 Mrd. €, Bau/Wohnen 3,1 Mrd. €.
+*Einschränkung: Gesamtsumme stammt aus 2018, seither nicht neu amtlich aufsummiert – vor Publikation prüfen, ob eine aktuellere UBA-Gesamtzahl vorliegt.*
+
+**FÖES/Klima-Allianz Deutschland und Germanwatch – Factsheet «Subventionen» zum Koalitionsvertrag** (Juni 2025, PDF)
+https://foes.de/publikationen/2025/2025-06-FOES-KOA-Vertrag-Subventionen.pdf
+Quelle für: für 2026 geplante Massnahmen zur Förderung von Öl-/Gasverbrauch ~11 Mrd. €; klimaschädliche Steuervergünstigungen/Ausgaben im Koalitionsvertrag insgesamt bis ~15 Mrd. €/Jahr.
+
 ---
 
 ## Weitere Fachstellen

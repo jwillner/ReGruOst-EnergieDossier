@@ -164,11 +164,15 @@ Die Rechnung geht auf – **aber nur, wenn Effizienz und Ausbau gleichzeitig gel
 | Schweizer PV-Branchenumsatz (Näherungswert für Investitionsvolumen) | **~3,7 Mrd. CHF** | 2024 | Swissolar, *Solarmonitor Schweiz* |
 | Deutsche Ausgaben für fossile Energieimporte (Rohöl, Erdgas, Steinkohle) | **~75–81 Mrd. €/Jahr** im langjährigen Schnitt 2008–2024; 2024 einzeln: Rohöl 51 Mrd. €, Erdgas 19 Mrd. €, Steinkohle 5 Mrd. € (zum Vergleich: 137,3 Mrd. € im Krisenjahr 2022, 80,7 Mrd. € 2023) | 2022–2024 | KfW Research, *Volkswirtschaft Kompakt* Nr. 251 (April 2025) |
 | Deutsche Investitionen in neue EE-Anlagen (Errichtung) | **~37,6 Mrd. €** (zweithöchster Wert seit 2000, nahe Rekordjahr 2023; seit 2021 mehr als verdoppelt) | 2025 | BMWE/AGEE-Stat, Newsletter «Erneuerbare Energien 2025 in Zahlen» |
+| Umweltschädliche Subventionen Deutschland gesamt | **~65 Mrd. €/Jahr**, davon Energieerzeugung/-nutzung 25,4 Mrd. €, Verkehr (Diesel-/Dienstwagenprivileg, Kerosin-Steuerbefreiung u. a.) 30,8 Mrd. € | 2018 (aktuellste amtliche Bezifferung) | Umweltbundesamt |
+| Für 2026 geplante klimaschädliche Subventionen (Förderung Öl-/Gasverbrauch) | **~11 Mrd. €** allein 2026; Koalitionsvertrag insgesamt bis **~15 Mrd. €/Jahr** | 2025/2026 | FÖES/Klima-Allianz Deutschland, Factsheet (Juni 2025) |
 
 *Hinweis zur Vergleichbarkeit: Die Zeilen messen Unterschiedliches – globale Investitionsflüsse, globale Subventionen und Schweizer Importausgaben sind nicht direkt eins-zu-eins vergleichbar. Aussagekräftig ist die Grössenordnung: Weltweit fliesst inzwischen doppelt so viel Kapital in saubere Technologien wie in fossile Energien, während fossile Energien gleichzeitig mit Billionen subventioniert werden.*
 
 > **Vor Publikation (Redaktionsregel 1+3):** Schweizer Importzahl beim BFE (Gesamtenergiestatistik, aktuellste Tabelle) exakt nachschlagen und mit Jahr versehen – der «~8 Mrd.»-Wert stammt aus einer Sekundärquelle ohne präzise Jahresangabe und gilt bis dahin als provisorisch.
 
+> **Hinweis (Redaktionsregel 2):** Der UBA-Wert «~65 Mrd. €» zu umweltschädlichen Subventionen in Deutschland stammt aus 2018, der letzten amtlichen Gesamtbezifferung – die Einzelbereiche (Verkehr, Energie) sind seither nicht neu aufsummiert worden. Aktuellere Entwicklungen sind nur für einzelne Massnahmen bekannt (FÖES/Klima-Allianz 2025/2026, Zeile darunter). Vor Publikation prüfen, ob das UBA inzwischen eine neuere Gesamtzahl veröffentlicht hat.
+
 ---
 
-**Quellen:** BFE Elektrizitätsbilanz 2025 · Stromgesetz/Mantelerlass · BFS Gebäudestatistik · FWS · Swissolar · Suisse Eole · Fraunhofer ISE/energy-charts.info · Bundesnetzagentur · NEA (China) · Ember · IEA World Energy Investment 2025 · IWF Fossil Fuel Subsidies 2025 Update · Energiestiftung Schweiz · KfW Research, Volkswirtschaft Kompakt Nr. 251 (April 2025). Vollständige Angaben in `12_Quellen.md`.
+**Quellen:** BFE Elektrizitätsbilanz 2025 · Stromgesetz/Mantelerlass · BFS Gebäudestatistik · FWS · Swissolar · Suisse Eole · Fraunhofer ISE/energy-charts.info · Bundesnetzagentur · NEA (China) · Ember · IEA World Energy Investment 2025 · IWF Fossil Fuel Subsidies 2025 Update · Energiestiftung Schweiz · KfW Research, Volkswirtschaft Kompakt Nr. 251 (April 2025) · Umweltbundesamt · FÖES/Klima-Allianz Deutschland. Vollständige Angaben in `12_Quellen.md`.
