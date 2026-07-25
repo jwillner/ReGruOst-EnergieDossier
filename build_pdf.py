@@ -123,6 +123,7 @@ li { margin-bottom: 1.1mm; }
 /* ---------- Tabellen ---------- */
 table { border-collapse: collapse; width: 100%; margin: 3.5mm 0 5mm 0;
   font-family: "DejaVu Sans", sans-serif; font-size: 8.6pt; page-break-inside: avoid; }
+tr { page-break-inside: avoid; }
 th { background: #10331f; color: #fff; text-align: left; padding: 2mm 2.4mm;
   font-weight: 600; }
 td { padding: 1.7mm 2.4mm; border-bottom: .4pt solid #dfe4e0; vertical-align: top; }
