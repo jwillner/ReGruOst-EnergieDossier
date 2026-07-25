@@ -248,6 +248,15 @@ Quelle für: für 2026 geplante Massnahmen zur Förderung von Öl-/Gasverbrauch 
 
 ---
 
+## GermanZero
+
+**GermanZero** (Website, Startseite)
+https://germanzero.de/
+Quelle für: spendenfinanzierte deutsche Klimaschutzorganisation mit über 1'000 Freiwilligen; Ziel Klimaneutralität Deutschlands bis 2035; «1,5-Grad-Gesetzespaket» an ~500 Bundestagsabgeordnete und 4 Ministerien (BMWK, BMDV, BMUV, BMEL) übergeben; «LocalZero»-Teams in mindestens 45 Städten (>6,4 Mio. Einwohner:innen) für kommunale Klimapläne; eigene Umfragewerte: 75 % wünschen ehrgeizigere Klimamassnahmen, 26 % finden die Bundesregierung tue genug.
+*Einschränkung: Alle Zahlen sind Selbstauskünfte der Organisation (Stand der Website beim Abruf 25. Juli 2026), nicht unabhängig verifiziert. Kein Bezug zur Schweiz – dient im Dossier als Beispiel für Bürgerbeteiligung im grossen Massstab (Kapitel 01).*
+
+---
+
 ## Weitere Fachstellen
 
 **PSI – Paul Scherrer Institut** (Energieforschung, Lebenszyklusanalysen)

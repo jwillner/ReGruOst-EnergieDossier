@@ -74,6 +74,22 @@ Der vierte Punkt ist im Gespräch besonders wichtig. Er unterscheidet die Greenp
 
 ---
 
+## Beispiel: GermanZero (Deutschland)
+
+Wie Grundsatz 5 – Bevölkerung beteiligen – im grossen Massstab aussehen kann, zeigt die deutsche Organisation **GermanZero**: eine spendenfinanzierte Klimaschutzinitiative mit über 1'000 Freiwilligen, deren Ziel es ist, Deutschland bis 2035 klimaneutral zu machen.
+
+Der Ansatz verbindet drei Ebenen:
+
+- **National:** ein ausformuliertes «1,5-Grad-Gesetzespaket», das an rund 500 Bundestagsabgeordnete und vier Ministerien ging.
+- **Lokal:** «LocalZero»-Teams erarbeiten in mindestens 45 deutschen Städten (zusammen über 6,4 Mio. Einwohnerinnen und Einwohner) kommunale Klimapläne – vom Prinzip her vergleichbar mit der Modellrechnung in Kapitel 10 dieses Dossiers, nur bereits in der Umsetzung.
+- **Direkter Dialog:** Freiwillige suchen das persönliche Gespräch mit ihren Wahlkreisabgeordneten, statt nur zu petitionieren – dieselbe Grundidee wie unsere Infostand-Gespräche, nur auf die Bundespolitik gerichtet.
+
+Für Gespräche relevant: Laut eigenen Angaben von GermanZero wünschen sich 75 % der Befragten ehrgeizigere Klimamassnahmen, nur 26 % finden, die Bundesregierung tue bereits genug. Das deckt sich mit der Erfahrung, dass Engagement für die Energiewende einer breiten Stimmung entspricht, nicht nur einer lauten Minderheit.
+
+*Quelle: germanzero.de, Angaben der Organisation (abgerufen 25. Juli 2026). Die Zahlen sind Selbstauskünfte von GermanZero und nicht unabhängig verifiziert.*
+
+---
+
 ## Was dieses Dossier nicht behauptet
 
 - Nicht, dass der Umbau einfach ist.
@@ -85,4 +101,4 @@ Ein Dossier, das nur Vorteile aufzählt, überzeugt niemanden, der skeptisch ist
 
 ---
 
-**Quellen zu diesem Kapitel:** siehe `12_Quellen.md`, Abschnitte «Greenpeace», «BFE», «Kosten».
+**Quellen zu diesem Kapitel:** siehe `12_Quellen.md`, Abschnitte «Greenpeace», «BFE», «Kosten», «GermanZero».
