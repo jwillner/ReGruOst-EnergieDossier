@@ -30,20 +30,42 @@ Stand: Juli 2026.
 - `Daten/` – Rechenskript und Ergebnisse der Gemeinde-Modellrechnung
 - `Tabellen/` – Kennzahlen-Kurzreferenz für den Infostand
 - `Grafiken/` – Diagramme (noch zu erstellen)
-- `Endfassung/` – druckfertiges PDF
+- `Endfassung/` – druckfertiges PDF (Gesamtdokument und `Kapitel/` einzeln)
 
 ---
 
 ## PDF neu bauen
 
+Einmalig eine virtuelle Umgebung anlegen und die Abhängigkeiten installieren:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install weasyprint markdown
+```
+
 Nach Änderungen an den Kapiteln:
 
 ```bash
-pip install weasyprint markdown --break-system-packages
+source .venv/bin/activate
 python3 build_pdf.py
 ```
 
-Ergebnis: `Endfassung/Greenpeace_Energiedossier.pdf`
+Ergebnis: `Endfassung/Greenpeace_Energiedossier.pdf` (Gesamtdokument) sowie je eine
+Einzel-PDF pro Kapitel in `Endfassung/Kapitel/` – praktisch zum gezielten
+Weitergeben eines einzelnen Themas.
+
+**Apple-Silicon-Mac mit Intel-Homebrew (`/usr/local`, per Rosetta):** Falls beim
+Build `OSError: cannot load library 'libgobject-2.0-0'` erscheint, liegt eine
+Architektur-Inkompatibilität zwischen nativer arm64-venv und x86_64-Homebrew-
+Bibliotheken vor. Dann die venv unter Rosetta anlegen und immer darüber
+aufrufen:
+
+```bash
+arch -x86_64 /usr/bin/python3 -m venv .venv
+arch -x86_64 .venv/bin/python3 -m pip install weasyprint markdown
+arch -x86_64 .venv/bin/python3 build_pdf.py
+```
 
 ## Modellrechnung neu rechnen
 

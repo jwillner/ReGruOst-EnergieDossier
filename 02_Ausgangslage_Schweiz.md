@@ -160,19 +160,76 @@ Die Rechnung geht auf – **aber nur, wenn Effizienz und Ausbau gleichzeitig gel
 | Globale Investitionen in fossile Energien (Öl, Gas, Kohle) | **~1,1 Bio. USD** | 2025 | IEA, *World Energy Investment 2025* |
 | Globale fossile Subventionen, explizit (direkte Preisstützung) | **~0,73 Bio. USD** | 2024 | IWF, *Underpriced and Overused: Fossil Fuel Subsidies Data 2025 Update* |
 | Globale fossile Subventionen, implizit (inkl. nicht eingepreiste Klima-/Gesundheitskosten) | **~6,7 Bio. USD** (~5,8 % des globalen BIP) | 2024 | IWF, dito |
-| Schweizer Ausgaben für fossile Energieimporte (Öl inkl. Gas) | **~8 Mrd. CHF/Jahr** (Richtwert, 10-Jahres-Schnitt) | ca. 2015–2024 | Energiestiftung Schweiz, mit Verweis auf BFE Gesamtenergiestatistik |
+| Schweizer Ausgaben für fossile Energieimporte (Öl, Gas, Kohle, netto) | **~7,2 Mrd. CHF/Jahr** (Mittelwert 2015–2024, exakt aus BFE-Statistik; Zeitreihe siehe Abschnitt 10) | 2015–2024 | BFE, *Schweizerische Gesamtenergiestatistik 2024* |
 | Schweizer PV-Branchenumsatz (Näherungswert für Investitionsvolumen) | **~3,7 Mrd. CHF** | 2024 | Swissolar, *Solarmonitor Schweiz* |
-| Deutsche Ausgaben für fossile Energieimporte (Rohöl, Erdgas, Steinkohle) | **~75–81 Mrd. €/Jahr** im langjährigen Schnitt 2008–2024; 2024 einzeln: Rohöl 51 Mrd. €, Erdgas 19 Mrd. €, Steinkohle 5 Mrd. € (zum Vergleich: 137,3 Mrd. € im Krisenjahr 2022, 80,7 Mrd. € 2023) | 2022–2024 | KfW Research, *Volkswirtschaft Kompakt* Nr. 251 (April 2025) |
-| Deutsche Investitionen in neue EE-Anlagen (Errichtung) | **~37,6 Mrd. €** (zweithöchster Wert seit 2000, nahe Rekordjahr 2023; seit 2021 mehr als verdoppelt) | 2025 | BMWE/AGEE-Stat, Newsletter «Erneuerbare Energien 2025 in Zahlen» |
+| Deutsche Ausgaben für fossile Energieimporte (Rohöl, Erdgas, Steinkohle) | **~75–81 Mrd. €/Jahr** im langjährigen Schnitt 2008–2024 (eigene Berechnung 2015–2024: ~73 Mrd. €/Jahr, ohne Nebenposten «Sonstige»; Zeitreihe siehe Abschnitt 10); 2024 einzeln: Rohöl 51 Mrd. €, Erdgas 19 Mrd. €, Steinkohle 5 Mrd. € (zum Vergleich: 137,3 Mrd. € im Krisenjahr 2022, 80,7 Mrd. € 2023) | 2022–2024 | KfW Research, *Volkswirtschaft Kompakt* Nr. 251 (April 2025) |
+| Deutsche Investitionen in neue EE-Anlagen (Errichtung) | **~37,6 Mrd. €** (zweithöchster Wert seit 2000, nahe Rekordjahr 2023; seit 2021 mehr als verdoppelt); Vorjahr 2024: 32,0 Mrd. € (Zeitreihe siehe Abschnitt 10) | 2025 | BMWE/AGEE-Stat, Newsletter «Erneuerbare Energien 2025 in Zahlen» |
 | Umweltschädliche Subventionen Deutschland gesamt | **~65 Mrd. €/Jahr**, davon Energieerzeugung/-nutzung 25,4 Mrd. €, Verkehr (Diesel-/Dienstwagenprivileg, Kerosin-Steuerbefreiung u. a.) 30,8 Mrd. € | 2018 (aktuellste amtliche Bezifferung) | Umweltbundesamt |
 | Für 2026 geplante klimaschädliche Subventionen (Förderung Öl-/Gasverbrauch) | **~11 Mrd. €** allein 2026; Koalitionsvertrag insgesamt bis **~15 Mrd. €/Jahr** | 2025/2026 | FÖES/Klima-Allianz Deutschland, Factsheet (Juni 2025) |
 
 *Hinweis zur Vergleichbarkeit: Die Zeilen messen Unterschiedliches – globale Investitionsflüsse, globale Subventionen und Schweizer Importausgaben sind nicht direkt eins-zu-eins vergleichbar. Aussagekräftig ist die Grössenordnung: Weltweit fliesst inzwischen doppelt so viel Kapital in saubere Technologien wie in fossile Energien, während fossile Energien gleichzeitig mit Billionen subventioniert werden.*
 
-> **Vor Publikation (Redaktionsregel 1+3):** Schweizer Importzahl beim BFE (Gesamtenergiestatistik, aktuellste Tabelle) exakt nachschlagen und mit Jahr versehen – der «~8 Mrd.»-Wert stammt aus einer Sekundärquelle ohne präzise Jahresangabe und gilt bis dahin als provisorisch.
-
 > **Hinweis (Redaktionsregel 2):** Der UBA-Wert «~65 Mrd. €» zu umweltschädlichen Subventionen in Deutschland stammt aus 2018, der letzten amtlichen Gesamtbezifferung – die Einzelbereiche (Verkehr, Energie) sind seither nicht neu aufsummiert worden. Aktuellere Entwicklungen sind nur für einzelne Massnahmen bekannt (FÖES/Klima-Allianz 2025/2026, Zeile darunter). Vor Publikation prüfen, ob das UBA inzwischen eine neuere Gesamtzahl veröffentlicht hat.
 
 ---
 
-**Quellen:** BFE Elektrizitätsbilanz 2025 · Stromgesetz/Mantelerlass · BFS Gebäudestatistik · FWS · Swissolar · Suisse Eole · Fraunhofer ISE/energy-charts.info · Bundesnetzagentur · NEA (China) · Ember · IEA World Energy Investment 2025 · IWF Fossil Fuel Subsidies 2025 Update · Energiestiftung Schweiz · KfW Research, Volkswirtschaft Kompakt Nr. 251 (April 2025) · Umweltbundesamt · FÖES/Klima-Allianz Deutschland. Vollständige Angaben in `12_Quellen.md`.
+## 10. Zehnjahres-Zeitreihe (2015–2024): fossile Importe vs. Ausbau erneuerbarer Energien
+
+**Fragestellung:** Wie haben sich die laufenden Ausgaben für fossile Energieimporte und die Investitionen in den Ausbau erneuerbarer Energien in der Schweiz und in Deutschland über die letzten zehn verfügbaren Jahre entwickelt?
+
+### Schweiz
+
+| Jahr | Fossile Energieimporte, netto¹ (Mio. CHF) | PV-Zubau² (MW) | PV-Branchenumsatz³ (Mio. CHF) |
+|---|---:|---:|---:|
+| 2015 | 6'466 | 333 | – |
+| 2016 | 5'057 | 270 | – |
+| 2017 | 6'125 | 242 | – |
+| 2018 | 7'196 | 267 | – |
+| 2019 | 7'275 | 325 | – |
+| 2020 | 3'962 | 475 | – |
+| 2021 | 6'027 | 682 | – |
+| 2022 | 11'074 | 1'081 | ~2'100 (abgeleitet)⁴ |
+| 2023 | 10'346 | 1'638 | 3'300 |
+| 2024 | 8'130 | 1'796 | 3'700 |
+| **Ø 2015–2024** | **~7'166** | – | – |
+
+¹ Erdölprodukte + Erdgas + Kohle, Nettoimportwert (Importe minus Exporte), ohne Kernbrennstoffe, Holz und Strom.
+² Jährlicher Zubau netzverbundener Photovoltaikanlagen (Differenz der kumulierten installierten Leistung).
+³ Geschätzter Jahresumsatz der Schweizer Solarbranche als Näherungswert für das Investitionsvolumen. Für 2015–2021 existiert keine durchgehende offizielle Reihe – die Lücke wurde bewusst offengelassen statt geschätzt (Redaktionsregel 2).
+⁴ Nicht direkt publiziert, sondern rechnerisch aus «Umsatz 2023 CHF 3,3 Mrd., +57 % ggü. 2022» abgeleitet (3,3 / 1,57 ≈ 2,1 Mrd.) – als Schätzung, nicht als Originalzahl zu lesen.
+
+*Quelle: BFE, Schweizerische Gesamtenergiestatistik 2024 (Tab. 8, 32, 41); Swissolar/EnergieSchweiz, Solarmonitor Schweiz 2024 (November 2024).*
+
+### Deutschland
+
+| Jahr | Rohöl (Mrd. €) | Erdgas (Mrd. €) | Steinkohle (Mrd. €) | Summe fossil¹ (Mrd. €) | EE-Errichtungsinvestitionen² (Mrd. €) |
+|---|---:|---:|---:|---:|---:|
+| 2015 | 41 | 20 | 4 | 65 | 13,9 |
+| 2016 | 33 | 16 | 4 | 53 | 15,3 |
+| 2017 | 40 | 14 | 5 | 59 | 15,9 |
+| 2018 | 49 | 17 | 5 | 71 | 13,8 |
+| 2019 | 48 | 15 | 4 | 67 | 10,7 |
+| 2020 | 30 | 12 | 2 | 44 | 11,9 |
+| 2021 | 41 | 27 | 4 | 72 | 14,6 |
+| 2022 | 71 | 59 | 12 | 142 (~146 inkl. Sonstige) | 22,6 |
+| 2023 | 55 | 25 | 6 | 86 (~90 inkl. Sonstige) | 38,1 |
+| 2024³ | 51 | 19 | 5 | 75 (~76 inkl. Sonstige) | 32,0 |
+| **Ø 2015–2024** | – | – | – | **~73** | **~18,9** |
+
+¹ Summe Rohöl + Erdgas + Steinkohle, Nettoimportwert. Die Nebenposition «Sonstige mineralische Brennstoffe» ist nur für 2022–2024 separat beziffert und in Klammern ergänzt.
+² Investitionen in die Errichtung von Anlagen zur Nutzung erneuerbarer Energien (Wind, Photovoltaik, Biomasse, Geothermie u. a.).
+³ Laut KfW vorläufige Zahlen.
+
+*Quelle: KfW Research, Volkswirtschaft Kompakt Nr. 251 (April 2025), auf Basis Destatis-Aussenhandelsstatistik; BMWE/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland 1990–2024 (Stand Februar 2025, Datenquelle ZSW).*
+
+### Einordnung
+
+In beiden Ländern übersteigen die laufenden Ausgaben für fossile Energieimporte die Investitionen in den Ausbau erneuerbarer Energien im Mittel deutlich: in Deutschland um rund das Vierfache (Ø ~73 Mrd. € fossile Importe vs. Ø ~18,9 Mrd. € EE-Investitionen pro Jahr, 2015–2024). Für die Schweiz lässt sich mangels durchgehender Investitionsreihe kein exakter Faktor über die volle Dekade berechnen; in den Jahren mit belegten Werten (2023/2024) lag der PV-Branchenumsatz bei rund einem Drittel der fossilen Importausgaben – wobei der PV-Umsatz nur einen Teil der gesamten EE-Investitionen abbildet (Wind, Biomasse, Wärmepumpen fehlen).
+
+**Zur Einordnung wichtig:** Die beiden Grössen sind nicht symmetrisch. Fossile Importausgaben sind laufende, wiederkehrende Kosten ohne Vermögensaufbau. EE-Investitionen sind einmalige Kapitalkosten für Anlagen, die danach 20–30 Jahre lang Erträge liefern – ein Grossteil der «Investition» wird über die Lebensdauer amortisiert und ersetzt künftige Importausgaben, statt sie zu addieren. Der Vergleich zeigt daher primär die Grössenordnung der jährlichen Kapitalflüsse, nicht eine Kosten-Nutzen-Bilanz.
+
+Preiskontext (Schweiz, nicht in der Tabelle): Die spezifischen PV-Systemkosten sanken 2024 gegenüber 2023 um 12–26 % und lagen 2024 je nach Anlagengrösse zwischen CHF 865/kW (Grossanlagen 300–1'000 kW) und CHF 2'756/kW (Kleinanlagen 2–10 kW) – Quelle: EnergieSchweiz/BFE, *Photovoltaikmarkt: Preisbeobachtungsstudie 2024* (Juli 2025). Wegen dieser Grössenabhängigkeit wurde bewusst keine Investitionssumme aus PV-Zubau × Einheitspreis hochgerechnet, da das je nach gewähltem Preis um den Faktor 2–3 verzerren würde.
+
+---
+
+**Quellen:** BFE Elektrizitätsbilanz 2025 · BFE Gesamtenergiestatistik 2024 · Stromgesetz/Mantelerlass · BFS Gebäudestatistik · FWS · Swissolar · Suisse Eole · Fraunhofer ISE/energy-charts.info · Bundesnetzagentur · NEA (China) · Ember · IEA World Energy Investment 2025 · IWF Fossil Fuel Subsidies 2025 Update · Energiestiftung Schweiz · KfW Research, Volkswirtschaft Kompakt Nr. 251 (April 2025) · Destatis Aussenhandelsstatistik · BMWE/AGEE-Stat Zeitreihen erneuerbare Energien 1990–2024 · EnergieSchweiz/BFE Photovoltaikmarkt-Preisbeobachtungsstudie 2024 · Umweltbundesamt · FÖES/Klima-Allianz Deutschland. Vollständige Angaben in `12_Quellen.md`.

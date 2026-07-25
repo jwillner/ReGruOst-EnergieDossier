@@ -22,3 +22,6 @@ Grafiken/Vorschau/
 # Editor
 .vscode/
 .idea/
+
+# Private/fremde Dokumente, nicht Teil des Dossiers
+Eigene-Dokumente/

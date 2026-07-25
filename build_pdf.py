@@ -24,6 +24,21 @@ TITEL = {
 
 md = markdown.Markdown(extensions=["tables", "fenced_code", "attr_list", "sane_lists", "nl2br"])
 
+
+def chapter_html(f):
+    nr = f[:2]
+    text = open(f, encoding="utf-8").read()
+    # erste H1 entfernen, wir setzen einen eigenen Kapitelkopf
+    text = re.sub(r"^#\s+.*\n", "", text, count=1)
+    body = md.convert(text)
+    md.reset()
+    return (
+        f'<section class="chapter"><div class="chap-head">'
+        f'<div class="chap-nr">Kapitel {nr}</div>'
+        f'<h1>{TITEL.get(nr, f)}</h1></div>{body}</section>'
+    )
+
+
 # ---- Titelseite + Inhaltsverzeichnis
 parts = [f"""
 <div class="cover">
@@ -48,17 +63,7 @@ parts.append("</ul></div>")
 
 # ---- Kapitel
 for f in FILES:
-    nr = f[:2]
-    text = open(f, encoding="utf-8").read()
-    # erste H1 entfernen, wir setzen einen eigenen Kapitelkopf
-    text = re.sub(r"^#\s+.*\n", "", text, count=1)
-    body = md.convert(text)
-    md.reset()
-    parts.append(
-        f'<section class="chapter"><div class="chap-head">'
-        f'<div class="chap-nr">Kapitel {nr}</div>'
-        f'<h1>{TITEL.get(nr, f)}</h1></div>{body}</section>'
-    )
+    parts.append(chapter_html(f))
 
 CSSTEXT = """
 @page {
@@ -139,11 +144,26 @@ hr { border: none; border-top: .5pt solid #dde3df; margin: 6mm 0; }
 a { color: #1c1c1c; text-decoration: none; word-break: break-all; }
 """
 
-html = "<html><head><meta charset='utf-8'></head><body>" + "".join(parts) + "</body></html>"
 os.makedirs("Endfassung", exist_ok=True)
 CSSTEXT = (CSSTEXT.replace("GRUPPE_PLATZHALTER", GRUPPE)
                   .replace("VERSION_PLATZHALTER", VERSION)
                   .replace("DATUM_PLATZHALTER", DATUM))
-HTML(string=html, base_url=".").write_pdf("Endfassung/Greenpeace_Energiedossier.pdf",
-                                          stylesheets=[CSS(string=CSSTEXT)])
-print("PDF erstellt.")
+STYLESHEET = CSS(string=CSSTEXT)
+
+
+def write_pdf(body_parts, out_path):
+    html = "<html><head><meta charset='utf-8'></head><body>" + "".join(body_parts) + "</body></html>"
+    HTML(string=html, base_url=".").write_pdf(out_path, stylesheets=[STYLESHEET])
+
+
+# ---- Gesamt-PDF
+write_pdf(parts, "Endfassung/Greenpeace_Energiedossier.pdf")
+print("Gesamt-PDF erstellt.")
+
+# ---- Einzel-PDFs je Kapitel
+EINZELVERZ = "Endfassung/Kapitel"
+os.makedirs(EINZELVERZ, exist_ok=True)
+for f in FILES:
+    out_name = os.path.splitext(f)[0] + ".pdf"
+    write_pdf([chapter_html(f)], os.path.join(EINZELVERZ, out_name))
+print(f"{len(FILES)} Einzel-PDFs erstellt in {EINZELVERZ}/.")

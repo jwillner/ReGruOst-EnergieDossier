@@ -173,7 +173,7 @@ https://www.energy-charts.info/
 
 ---
 
-## Ausbau Deutschland/China und Kostenvergleich (Kapitel 02, Abschnitte 8–9)
+## Ausbau Deutschland/China und Kostenvergleich (Kapitel 02, Abschnitte 8–10)
 
 **Fraunhofer ISE / Prof. B. Burger – «Stromerzeugung in Deutschland im Jahr 2025»** (PDF, Januar 2026)
 https://www.energy-charts.info/downloads/Stromerzeugung_2025.pdf
@@ -209,19 +209,29 @@ Quelle für: globale Energieinvestitionen 2025 gesamt ~3,3 Bio. USD, davon ~2,2 
 https://www.imf.org/en/publications/wp/issues/2025/12/20/underpriced-and-overused-fossil-fuel-subsidies-data-2025-update-572729
 Quelle für: globale fossile Subventionen 2024 – explizit (direkte Preisstützung) ~0,73 Bio. USD; implizit (inkl. nicht eingepreiste Klima-/Gesundheitskosten) ~6,7 Bio. USD bzw. ~5,8 % des globalen BIP.
 
-**Schweizerische Energie-Stiftung (SES) – «Die Schweiz hängt (noch) am Erdöl-Tropf»**
-https://energiestiftung.ch/erdoel-schweiz
-Quelle für: Richtwert ~8 Mrd. CHF/Jahr Schweizer Ausgaben für fossile Energieimporte (Öl inkl. Gas).
-*Einschränkung: Zitiert ohne exaktes Bezugsjahr; für die belastbare Zahl direkt die BFE-Gesamtenergiestatistik (aktuellste Jahrestabelle) heranziehen.*
+**BFE – Schweizerische Gesamtenergiestatistik 2024** (Bern, 2025)
+https://www.bfe.admin.ch/bfe/de/home/versorgung/statistik-und-geodaten/energiestatistiken/gesamtenergiestatistik.html
+Quelle für: Zehnjahres-Zeitreihe 2015–2024 Schweizer Ausgaben für fossile Energieimporte (Erdölprodukte, Erdgas, Kohle, netto, Tab. 8/41) und PV-Zubau (Tab. 32). Mittelwert 2015–2024: ~7'166 Mio. CHF/Jahr.
 
-**Swissolar – Solarmonitor Schweiz 2024** (PDF)
+**Schweizerische Energie-Stiftung (SES) – «Energie-Unabhängigkeitstag 2026»** (Léonore Hälg, Zürich, 13.4.2026)
+https://energiestiftung.ch/
+Kontext-/Sekundärquelle, zitiert BFE Tab. 41; für die belastbare Zeitreihe direkt die BFE-Gesamtenergiestatistik 2024 herangezogen (siehe oben).
+
+**Swissolar / EnergieSchweiz – Solarmonitor Schweiz 2024** (PDF, November 2024)
 https://www.swissolar.ch/02_markt-politik/solarmonitor-schweiz/solarmonitor_schweiz_2024_de.pdf
-Quelle für: geschätzter PV-Branchenumsatz Schweiz ~3,7 Mrd. CHF (2024) als Näherungswert für das jährliche Investitionsvolumen.
-*Einschränkung: Zahl aus Sekundärrecherche, im Solarmonitor-PDF selbst noch nicht Zeile für Zeile verifiziert – vor Publikation Originaltabelle prüfen.*
+Quelle für: PV-Branchenumsatz Schweiz 3'300 Mio. CHF (2023) und 3'700 Mio. CHF (2024) als Näherungswert für das jährliche Investitionsvolumen. Wert für 2022 (~2'100 Mio. CHF) rechnerisch aus der Angabe «2023 +57 % ggü. 2022» abgeleitet, keine Originalzahl. Für 2015–2021 keine durchgehende offizielle Reihe verfügbar.
+
+**EnergieSchweiz/BFE (Bloch, Sauter, Jacqmin, Planair SA) – «Photovoltaikmarkt: Preisbeobachtungsstudie 2024»** (Abschlussbericht, 10.7.2025)
+https://pubdb.bfe.admin.ch/de/publication/download/12226
+Quelle für: spezifische PV-Systemkosten Schweiz 2024 nach Anlagengrösse (CHF 865–2'756/kW), Rückgang 12–26 % ggü. 2023.
 
 **KfW Research – «Volkswirtschaft Kompakt» Nr. 251** (PDF, April 2025)
 https://www.kfw.de/PDF/Download-Center/Konzernthemen/Research/PDF-Dokumente-Volkswirtschaft-Kompakt/One-Pager-2025/VK-Nr.-251-April-2025-fossile-Importe.pdf
-Quelle für: deutsche Ausgaben für fossile Energieimporte (Rohöl, Erdgas, Steinkohle) ~75–81 Mrd. €/Jahr im Schnitt 2008–2024; 2024 einzeln Rohöl 51 Mrd. €, Erdgas 19 Mrd. €, Steinkohle 5 Mrd. €; zum Vergleich 137,3 Mrd. € (2022) und 80,7 Mrd. € (2023).
+Quelle für: deutsche Ausgaben für fossile Energieimporte (Rohöl, Erdgas, Steinkohle) ~75–81 Mrd. €/Jahr im Schnitt 2008–2024; Zehnjahres-Zeitreihe 2015–2024 (Datenlabels aus Balkendiagramm, Basis Destatis-Aussenhandelsstatistik), Mittelwert 2015–2024 (3 Hauptbrennstoffe): ~73 Mrd. €/Jahr; 2024 einzeln Rohöl 51 Mrd. €, Erdgas 19 Mrd. €, Steinkohle 5 Mrd. € (vorläufig); zum Vergleich 137,3 Mrd. € (2022) und 80,7 Mrd. € (2023).
+
+**BMWE/AGEE-Stat – «Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland 1990–2024»** (PDF, Stand Februar 2025, Datenquelle ZSW)
+https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Energie/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-1990-2024.pdf?__blob=publicationFile&v=8
+Quelle für: Zehnjahres-Zeitreihe 2015–2024 deutsche Investitionen in die Errichtung von EE-Anlagen (Tab. 9.1), Mittelwert ~18,9 Mrd. €/Jahr; 2024 einzeln 32,0 Mrd. €.
 
 **BMWE/AGEE-Stat – Newsletter Energiewende «Erneuerbare Energien 2025 in Zahlen»** (März 2026)
 https://energiewende.bundeswirtschaftsministerium.de/EWD/Redaktion/Newsletter/2026/03/Meldung/direkt-erfasst.html
