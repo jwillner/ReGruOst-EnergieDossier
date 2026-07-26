@@ -72,6 +72,11 @@ Ordner:
 
 ## 5. Offene Punkte
 
+- [x] Zahlen- und Quellenprüfung Kapitel 02 (Schlussdurchgang, inkl. PDF-Rendering
+      Zeile für Zeile geprüft: Abschnitte 9+10, fossile Importe vs.
+      EE-Investitionen CH/DE, 10-Jahres-Zeitreihe 2015–2024)
+- [ ] Zahlen- und Quellenprüfung übrige Kapitel (bisher nur überflogen, nicht im
+      gleichen Detailgrad wie Kapitel 02)
 - [ ] Regionale Zahlen für den eigenen Kanton ergänzen (kantonale Energiestatistik)
 - [ ] Konkrete lokale Projektbeispiele einfügen – wirken im Gespräch stärker als nationale Zahlen
 - [ ] Kurzfassung als A5-Flyer aus Kapitel 01 + 11 ableiten

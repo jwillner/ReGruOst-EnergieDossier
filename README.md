@@ -93,7 +93,11 @@ Ausführlich in `00_Projektplan.md`.
 
 ## Offene Punkte
 
-- [ ] Zahlen- und Quellenprüfung (Schlussdurchgang)
+- [x] Zahlen- und Quellenprüfung Kapitel 02 (Schlussdurchgang, inkl. PDF-Rendering
+      Zeile für Zeile geprüft: Abschnitte 9+10, fossile Importe vs.
+      EE-Investitionen CH/DE, 10-Jahres-Zeitreihe 2015–2024)
+- [ ] Zahlen- und Quellenprüfung übrige Kapitel (bisher nur überflogen, nicht im
+      gleichen Detailgrad wie Kapitel 02)
 - [ ] Grafiken erstellen (Strommix, Monatsverlauf, PV-Zubau)
 - [ ] Regionale Zahlen für den eigenen Kanton ergänzen
 - [ ] Kurzfassung als A5-Flyer aus Kapitel 01 + 11
