@@ -3,6 +3,7 @@
 import glob, os, re
 import markdown
 from weasyprint import HTML, CSS
+from weasyprint.text.fonts import FontConfiguration
 
 # ---- Metadaten (hier anpassen bei neuer Version) ----
 GRUPPE       = "Greenpeace Regionalgruppe Ost"
@@ -149,8 +150,10 @@ blockquote { margin: 4mm 0; padding: 3mm 4.5mm; background: #eef5f0;
 blockquote p { font-size: inherit; margin: 0 0 1.5mm 0; text-align: left; }
 blockquote p:last-child { margin-bottom: 0; }
 
-code { font-size: var(--basis); background: #f0f3f1; padding: .3mm 1mm; border-radius: 1.5pt; }
-pre { background: #f5f8f6; border-left: 2.5pt solid #b9ccc0; padding: 3mm 4mm;
+code { font-family: "Nunito", sans-serif; font-size: var(--basis);
+  background: #f0f3f1; padding: .3mm 1mm; border-radius: 1.5pt; }
+pre { font-family: "Nunito", sans-serif;
+  background: #f5f8f6; border-left: 2.5pt solid #b9ccc0; padding: 3mm 4mm;
   font-size: var(--basis); line-height: 1.4; page-break-inside: avoid; overflow-wrap: break-word; }
 pre code { background: none; padding: 0; }
 
@@ -162,12 +165,14 @@ os.makedirs("Endfassung", exist_ok=True)
 CSSTEXT = (CSSTEXT.replace("GRUPPE_PLATZHALTER", GRUPPE)
                   .replace("VERSION_PLATZHALTER", VERSION)
                   .replace("DATUM_PLATZHALTER", DATUM))
-STYLESHEET = CSS(string=CSSTEXT)
+FONT_CONFIG = FontConfiguration()
+STYLESHEET = CSS(string=CSSTEXT, base_url=".", font_config=FONT_CONFIG)
 
 
 def write_pdf(body_parts, out_path):
     html = "<html><head><meta charset='utf-8'></head><body>" + "".join(body_parts) + "</body></html>"
-    HTML(string=html, base_url=".").write_pdf(out_path, stylesheets=[STYLESHEET])
+    HTML(string=html, base_url=".").write_pdf(
+        out_path, stylesheets=[STYLESHEET], font_config=FONT_CONFIG)
 
 
 # ---- Gesamt-PDF
