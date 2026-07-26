@@ -1,4 +1,4 @@
-# Greenpeace Energiedossier
+# Greenpeace Regionalgruppe Ost – Energiedossier
 
 **Warum wir auf erneuerbare Energien setzen** – Fakten, Zahlen und Argumente zur Schweizer Energiezukunft.
 
@@ -51,7 +51,7 @@ source .venv/bin/activate
 python3 build_pdf.py
 ```
 
-Ergebnis: `Endfassung/Greenpeace_Energiedossier.pdf` (Gesamtdokument) sowie je eine
+Ergebnis: `Endfassung/Greenpeace_Regionalgruppe_Ost_Energiedossier.pdf` (Gesamtdokument) sowie je eine
 Einzel-PDF pro Kapitel in `Endfassung/Kapitel/` – praktisch zum gezielten
 Weitergeben eines einzelnen Themas.
 

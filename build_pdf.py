@@ -66,38 +66,52 @@ for f in FILES:
     parts.append(chapter_html(f))
 
 CSSTEXT = """
+@font-face {
+  font-family: "Nunito";
+  src: url("Fonts/Nunito-Variable.ttf");
+  font-weight: 200 900;
+}
+
 @page {
   size: A4; margin: 22mm 20mm 20mm 20mm;
   @bottom-center { content: "Seite " counter(page) "/" counter(pages);
-                   font-family: "DejaVu Sans", sans-serif;
+                   font-family: "Nunito", sans-serif;
                    font-size: 8.5pt; color: #7a7a7a; }
-  @top-right { content: "GRUPPE_PLATZHALTER Energiedossier"; font-family: "DejaVu Sans", sans-serif;
+  @top-right { content: "GRUPPE_PLATZHALTER Energiedossier"; font-family: "Nunito", sans-serif;
                font-size: 7.5pt; color: #a5a5a5; letter-spacing: .06em; }
-  @top-left { content: "Version VERSION_PLATZHALTER · DATUM_PLATZHALTER"; font-family: "DejaVu Sans", sans-serif;
+  @top-left { content: "Version VERSION_PLATZHALTER · DATUM_PLATZHALTER"; font-family: "Nunito", sans-serif;
               font-size: 7.5pt; color: #a5a5a5; letter-spacing: .06em; }
 }
 @page :first { @bottom-center { content: ""; } @top-right { content: ""; } @top-left { content: ""; } }
 
-html { font-family: "DejaVu Serif", Georgia, serif; font-size: 10pt;
+/* Kapitelinhalt (.chapter) haelt sich an genau 3 Schriftgroessen:
+   --gross fuer den Kapiteltitel, --mittel fuer h2/h3 (per Gewicht/Farbe
+   unterschieden), --basis fuer Fliesstext, Tabellen, Zitate, Code, Listen
+   und das Kapitel-Label. Cover und Kopf-/Fusszeile liegen ausserhalb davon. */
+.chapter {
+  --gross: 15pt; --mittel: 11.5pt; --basis: 9.5pt;
+}
+
+html { font-family: "Nunito", sans-serif; font-size: 10pt;
        line-height: 1.52; color: #1c1c1c; }
 body { margin: 0; }
 
 /* ---------- Titelseite ---------- */
 .cover { page-break-after: always; padding-top: 55mm; }
-.cover-eyebrow { font-family: "DejaVu Sans", sans-serif; font-size: 9pt;
+.cover-eyebrow { font-size: 9pt;
   letter-spacing: .22em; text-transform: uppercase; color: #00874a; margin-bottom: 14mm; }
-.cover-title { font-family: "DejaVu Sans", sans-serif; font-size: 27pt; line-height: 1.22;
-  font-weight: 700; color: #10331f; margin: 0 0 8mm 0; border: none; padding: 0; }
+.cover-title { font-size: 27pt; line-height: 1.22;
+  font-weight: 800; color: #10331f; margin: 0 0 8mm 0; border: none; padding: 0; }
 .cover-sub { font-size: 12.5pt; color: #3d5a49; line-height: 1.5; max-width: 118mm; }
 .cover-rule { width: 34mm; height: 3.5pt; background: #00874a; margin: 14mm 0 8mm 0; }
-.cover-meta { font-family: "DejaVu Sans", sans-serif; font-size: 9pt; color: #6d6d6d; line-height: 1.7; }
-.cover-resp { font-family: "DejaVu Sans", sans-serif; font-size: 9pt; color: #10331f;
+.cover-meta { font-size: 9pt; color: #6d6d6d; line-height: 1.7; }
+.cover-resp { font-size: 9pt; color: #10331f;
   margin-top: 10mm; padding-top: 3mm; border-top: .5pt solid #d5ddd8; }
 
 /* ---------- Inhaltsverzeichnis ---------- */
 .toc-page { page-break-after: always; }
 ul.toc { list-style: none; padding: 0; margin-top: 8mm; }
-ul.toc li { font-family: "DejaVu Sans", sans-serif; font-size: 10.5pt;
+ul.toc li { font-size: 10.5pt;
   padding: 2.6mm 0; border-bottom: .4pt solid #e2e6e3; }
 .toc-nr { display: inline-block; width: 13mm; color: #00874a; font-weight: 700; }
 .toc-t { color: #22332a; }
@@ -105,40 +119,39 @@ ul.toc li { font-family: "DejaVu Sans", sans-serif; font-size: 10.5pt;
 /* ---------- Kapitel ---------- */
 .chapter { page-break-before: always; }
 .chap-head { border-bottom: 2.4pt solid #00874a; margin-bottom: 7mm; padding-bottom: 3mm; }
-.chap-nr { font-family: "DejaVu Sans", sans-serif; font-size: 8.5pt; letter-spacing: .2em;
+.chap-nr { font-size: var(--basis); font-weight: 700; letter-spacing: .2em;
   text-transform: uppercase; color: #00874a; margin-bottom: 2mm; }
-.chap-head h1 { font-family: "DejaVu Sans", sans-serif; font-size: 19pt; line-height: 1.24;
+.chap-head h1 { font-size: var(--gross); font-weight: 800; line-height: 1.24;
   color: #10331f; margin: 0; border: none; padding: 0; }
 
-h2 { font-family: "DejaVu Sans", sans-serif; font-size: 12.5pt; color: #10331f;
+h2 { font-size: var(--mittel); font-weight: 800; color: #10331f;
   margin: 7mm 0 2.5mm 0; page-break-after: avoid; }
-h3 { font-family: "DejaVu Sans", sans-serif; font-size: 10.5pt; color: #2c4a38;
+h3 { font-size: var(--mittel); font-weight: 600; color: #2c4a38;
   margin: 5mm 0 1.5mm 0; page-break-after: avoid; }
-p { margin: 0 0 2.6mm 0; text-align: justify; hyphens: auto; }
-strong { color: #10331f; }
+p { font-size: var(--basis); margin: 0 0 2.6mm 0; text-align: justify; hyphens: auto; }
+strong { color: #10331f; font-weight: 700; }
 
-ul, ol { margin: 0 0 3mm 0; padding-left: 5.5mm; }
+ul, ol { font-size: var(--basis); margin: 0 0 3mm 0; padding-left: 5.5mm; }
 li { margin-bottom: 1.1mm; }
 
 /* ---------- Tabellen ---------- */
 table { border-collapse: collapse; width: 100%; margin: 3.5mm 0 5mm 0;
-  font-family: "DejaVu Sans", sans-serif; font-size: 8.6pt; page-break-inside: avoid; }
+  font-size: var(--basis); page-break-inside: avoid; }
 tr { page-break-inside: avoid; }
 th { background: #10331f; color: #fff; text-align: left; padding: 2mm 2.4mm;
-  font-weight: 600; }
+  font-weight: 700; }
 td { padding: 1.7mm 2.4mm; border-bottom: .4pt solid #dfe4e0; vertical-align: top; }
 tbody tr:nth-child(even) td { background: #f5f8f6; }
 
 /* ---------- Zitate / Hinweise ---------- */
 blockquote { margin: 4mm 0; padding: 3mm 4.5mm; background: #eef5f0;
-  border-left: 3pt solid #00874a; font-size: 9.6pt; }
-blockquote p { margin: 0 0 1.5mm 0; text-align: left; }
+  border-left: 3pt solid #00874a; font-size: var(--basis); }
+blockquote p { font-size: inherit; margin: 0 0 1.5mm 0; text-align: left; }
 blockquote p:last-child { margin-bottom: 0; }
 
-code { font-family: "DejaVu Sans Mono", monospace; font-size: 8.4pt;
-  background: #f0f3f1; padding: .3mm 1mm; border-radius: 1.5pt; }
+code { font-size: var(--basis); background: #f0f3f1; padding: .3mm 1mm; border-radius: 1.5pt; }
 pre { background: #f5f8f6; border-left: 2.5pt solid #b9ccc0; padding: 3mm 4mm;
-  font-size: 8pt; line-height: 1.4; page-break-inside: avoid; overflow-wrap: break-word; }
+  font-size: var(--basis); line-height: 1.4; page-break-inside: avoid; overflow-wrap: break-word; }
 pre code { background: none; padding: 0; }
 
 hr { border: none; border-top: .5pt solid #dde3df; margin: 6mm 0; }
@@ -158,7 +171,7 @@ def write_pdf(body_parts, out_path):
 
 
 # ---- Gesamt-PDF
-write_pdf(parts, "Endfassung/Greenpeace_Energiedossier.pdf")
+write_pdf(parts, "Endfassung/Greenpeace_Regionalgruppe_Ost_Energiedossier.pdf")
 print("Gesamt-PDF erstellt.")
 
 # ---- Einzel-PDFs je Kapitel
