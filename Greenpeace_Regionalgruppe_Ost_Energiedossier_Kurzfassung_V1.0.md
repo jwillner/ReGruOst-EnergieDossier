@@ -7,7 +7,7 @@ Die Schweiz erzeugt ihren **Strom** bereits zu rund 80 % CO₂-arm (Wasserkraft,
 ## Acht Gründe
 
 1. **Klimaschutz** – nahezu keine direkten Emissionen
-2. **Unabhängigkeit** – Sonne, Wind, Wasser sind einheimisch; Öl, Gas, Uran zu 100 % importiert
+2. **Unabhängigkeit** – Sonne, Wind und Wasser sind einheimisch; Öl, Gas und Uran werden zu 100 % importiert. Auch die Urananreicherung ist international konzentriert, unter anderem in Russland.
 3. **Versorgungssicherheit** – viele kleine Anlagen statt weniger Grosskraftwerke
 4. **Langfristig günstig** – tiefe Betriebskosten nach dem Bau
 5. **Schutz von Mensch und Umwelt** – kein hochradioaktiver Abfall
