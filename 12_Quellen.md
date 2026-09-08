@@ -274,6 +274,11 @@ https://www.energiestiftung.ch/
 **Axpo – White Paper Rolle und Potenzial der Windenergie in der Schweiz** (2025, PDF)
 https://www.axpo.com/content/dam/axpo19/master/files-master/media-releases/2025/250423_Axpo_Wind%20White%20Paper_DE.pdf
 
+**ADAC – Bidirektionale Wallbox** (Stand: 26.06.2026)
+https://www.adac.de/rund-ums-haus/energie/versorgung/bidirektionale-wallbox/
+Quelle für: Varianten V2H (Vehicle-to-Home), V2G (Vehicle-to-Grid), V2L (Vehicle-to-Load) beim bidirektionalen Laden von Elektroautos · aktuell nur sehr wenige bidirektionale Wallboxen für Privatkunden erhältlich, BMW Wallbox Professional als derzeit einzige in Deutschland breit verfügbare Lösung · Kosten reiner DC-Wallboxen ab ca. 2'100 € zzgl. 500–3'000 € Installation, speichergestützte Systeme 15'000–25'000 € · Umwandlungsverluste 10–20 %, bei reiner Nachtladung Wirkungsgrad teils nur ~50 % · keine herstellerübergreifende Kompatibilität.
+*Einschränkung: Deutscher Markt/Kontext (Verfügbarkeit, Preise), nicht Schweiz-spezifisch. Relevant für Kap. 08 (Speicher & Netze) – zeigt, dass die Praxis beim bidirektionalen Laden noch deutlich hinter dem in Kap. 08 skizzierten theoretischen Speicherpotenzial der Fahrzeugflotte zurückliegt.*
+
 ---
 
 ## Hinweise zur Quellennutzung
