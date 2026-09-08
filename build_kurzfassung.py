@@ -7,8 +7,8 @@ from weasyprint import HTML, CSS
 from weasyprint.text.fonts import FontConfiguration
 
 GRUPPE  = "Greenpeace Regionalgruppe Ost"
-VERSION = "1.0"
-DATUM   = "20. Juli 2026"
+VERSION = "1.1"
+DATUM   = "8. September 2026"
 
 md = markdown.Markdown(extensions=["tables", "sane_lists", "nl2br"])
 
