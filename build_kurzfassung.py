@@ -6,9 +6,14 @@ import markdown
 from weasyprint import HTML, CSS
 from weasyprint.text.fonts import FontConfiguration
 
-GRUPPE  = "Greenpeace Regionalgruppe Ost"
-VERSION = "1.1"
-DATUM   = "8. September 2026"
+GRUPPE      = "Greenpeace Regionalgruppe Ost"
+AUTOR       = "Joachim Willner"
+KUERZEL     = "JoWi"
+VERSION     = "1.1"
+DATUM       = "8. September 2026"     # Anzeige im Dokument
+DATUM_DATEI = "08-09-2026"            # TT-MM-JJJJ, fuer den Dateinamen
+
+DATEINAME = f"RegruOst_Energiedossier_Kurzfassung_{KUERZEL}_V{VERSION}_{DATUM_DATEI}"
 
 md = markdown.Markdown(extensions=["tables", "sane_lists", "nl2br"])
 
@@ -24,6 +29,7 @@ html = f"""<html><head><meta charset="utf-8"></head><body>
 <div class="head">
   <div class="eyebrow">{GRUPPE} &middot; Energiedossier</div>
   <h1>{TITLE}</h1>
+  <div class="meta">&copy; {AUTOR} &middot; V{VERSION} &middot; {DATUM}</div>
 </div>
 <div class="content">{body}</div>
 </body></html>"""
@@ -37,7 +43,7 @@ CSS_TEXT = """
 
 @page {
   size: A4; margin: 14mm 15mm 13mm 15mm;
-  @bottom-center { content: "Kurzfassung \\2014 Vollst\\00e4ndige Fassung mit Quellen: Endfassung, Greenpeace Regionalgruppe Ost \\2014 Seite " counter(page) "/" counter(pages);
+  @bottom-center { content: "{{DATEINAME}} \\2014 Seite " counter(page) "/" counter(pages);
                    font-family: "Nunito", sans-serif; font-size: 7pt; color: #8a8a8a; }
 }
 
@@ -47,8 +53,10 @@ body { margin: 0; }
 .head { margin-bottom: 4mm; }
 .eyebrow { font-size: 8pt; letter-spacing: .16em; text-transform: uppercase;
   color: #00874a; font-weight: 700; margin-bottom: 2mm; }
-.head h1 { font-size: 16.5pt; font-weight: 800; color: #10331f; margin: 0 0 3.5mm 0;
-  border-bottom: 1.8pt solid #00874a; padding-bottom: 3mm; line-height: 1.2; }
+.head h1 { font-size: 16.5pt; font-weight: 800; color: #10331f; margin: 0 0 1.5mm 0;
+  line-height: 1.2; }
+.meta { font-size: 7.3pt; color: #6b6b6b; font-weight: 600; margin: 0 0 3.5mm 0;
+  border-bottom: 1.8pt solid #00874a; padding-bottom: 3mm; }
 
 .content { column-count: 2; column-gap: 9mm; column-rule: .4pt solid #dde3df; }
 
@@ -77,9 +85,10 @@ hr { display: none; }
 em { color: #4a4a4a; }
 """
 
+CSS_TEXT = CSS_TEXT.replace("{{DATEINAME}}", DATEINAME)
 FONT_CONFIG = FontConfiguration()
 STYLESHEET = CSS(string=CSS_TEXT, base_url=".", font_config=FONT_CONFIG)
 
-out_path = "Endfassung/Greenpeace_Regionalgruppe_Ost_Energiedossier_Kurzfassung.pdf"
+out_path = f"Endfassung/{DATEINAME}.pdf"
 HTML(string=html, base_url=".").write_pdf(out_path, stylesheets=[STYLESHEET], font_config=FONT_CONFIG)
 print(f"Kurzfassung erstellt: {out_path}")
