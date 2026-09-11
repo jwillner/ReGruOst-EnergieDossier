@@ -61,7 +61,7 @@ def main():
     organisation = meta["organisation"]
     titel = meta["titel"]
     kategorie = meta.get("kategorie", "Notiz")
-    autor = meta["autor"]
+    autor = meta.get("autor", "")
     version = meta["version"]
     datum = datum_ausgeschrieben(meta["datum"])
 
@@ -72,11 +72,15 @@ def main():
     md = markdown.Markdown(extensions=["tables", "sane_lists", "nl2br"])
     html_body = md.convert(body)
 
+    meta_text = f"Version{version} &middot; {datum}"
+    if autor:
+        meta_text = f"&copy; {autor} &middot; {meta_text}"
+
     html = f"""<html><head><meta charset="utf-8"></head><body>
 <div class="head">
   <div class="eyebrow">{organisation} &middot; {kategorie}</div>
   <h1>{titel}</h1>
-  <div class="meta">&copy; {autor} &middot; Version{version} &middot; {datum}</div>
+  <div class="meta">{meta_text}</div>
 </div>
 <div class="content">{html_body}</div>
 </body></html>"""
